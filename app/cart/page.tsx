@@ -15,7 +15,7 @@ export default function CartPage() {
 
   const handleConfirm = async () => {
     try {
-      const response = await axios.post("http://localhost:3000/api/order", {
+      const response = await axios.post("https://consorcioapi.onrender.com/api/order", {
         customerName: "Brandon",
         customerEmail: "Brandon@example.com",
         items: items.map((i) => ({

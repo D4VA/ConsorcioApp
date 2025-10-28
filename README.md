@@ -44,6 +44,23 @@ Para ejecutar la aplicación localmente, puedes utilizar el siguiente comando:
 
 Esto iniciará el servidor de la aplicación en tu navegador en [http://localhost:3000](http://localhost:3000).
 
+## Docker
+## Ejecutar el Front End con Docker
+
+1. **Construir la imagen**
+   ```bash
+   docker build -t consorcio-frontend .
+   ```
+   
+2. **Ejecutar el contenedor
+    ```bash
+    docker run -p 3000:3000 consorcio-frontend
+    ```
+3. **Accede a la aplicación en el navegador
+    ```bash
+    http://localhost:3000
+    ```
+
 ## Scripts disponibles
 
 En el archivo `package.json`, encontrarás varios scripts que puedes ejecutar:

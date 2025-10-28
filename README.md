@@ -52,11 +52,11 @@ Esto iniciará el servidor de la aplicación en tu navegador en [http://localhos
    docker build -t consorcio-frontend .
    ```
    
-2. **Ejecutar el contenedor
+2. **Ejecutar el contenedor**
     ```bash
     docker run -p 3000:3000 consorcio-frontend
     ```
-3. **Accede a la aplicación en el navegador
+3. **Accede a la aplicación en el navegador**
     ```bash
     http://localhost:3000
     ```
